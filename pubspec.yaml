@@ -29,6 +29,9 @@ dependencies:
   romanice: ^2.0.0
   flutter_boxicons: ^3.0.0
   shared_preferences: ^2.0.6
+  #for calls
+  url_launcher: ^6.0.7
+  flutter_custom_clippers: ^2.0.0
 
 
 
@@ -49,6 +52,21 @@ flutter:
   assets:
     - assets/images/pizza_logo.svg
     - assets/images/logo.jpeg
+    - assets/images/Burger.jpg
+    - assets/images/Dips.jpg
+    - assets/images/Desserts.jpg
+    - assets/images/Fingerfood.jpg
+    - assets/images/Kaffee.jpg
+    - assets/images/Panini.jpg
+    - assets/images/Pasta.jpg
+    - assets/images/Peperoni.jpg
+    - assets/images/Pizza.jpg
+    - assets/images/Pommes.jpg
+    - assets/images/Salate.jpg
+    - assets/images/Softdrinks.jpg
+    - assets/images/Suppen.jpg
+    - assets/images/Wasser.jpg
+    - assets/images/logo_svg.svg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

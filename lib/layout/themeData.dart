@@ -22,10 +22,12 @@ ThemeData AppThemeData(BuildContext context) {
       //Body Fonts:
       bodyText2: TextStyle(fontSize: 16 * ts, color: sekundaerFarbe),
       //Unterschrifften Schrift:
-      subtitle1: TextStyle(fontSize: 12 * ts, color: sekundaerFarbe),
+      subtitle1: TextStyle(fontSize: 16 * ts, color: sekundaerFarbe),
+      subtitle2: TextStyle(fontSize: 12*ts)
     ),
 
     appBarTheme: AppBarTheme(
+      backgroundColor: primaerFarbe,
       iconTheme: IconThemeData(
           size: ts * 20,
           color: sekundaerFarbe,

@@ -26,7 +26,7 @@ Drawer buildDrawer(BuildContext context) {
         ListTile(
           title: Text("Home"),
           leading: Icon(Icons.home_sharp, color:primaerFarbe, size:ts*16),
-          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => Seite())),
+          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => StartSeite())),
         ),
 
         ListTile(
